@@ -1,6 +1,7 @@
 function reversePrint(arr) {
 
-    const reverseArr = arr.reverse()    
+    const reverseArr = arr.reverse()
+    console.log(`initial position: [${reverseArr[0]}] => destination: [${reverseArr[reverseArr.length - 1]}] `)    
     console.log(` => You made it in ${reverseArr.length - 1} moves!  Here's your path:`)
     reverseArr.forEach((val) => console.log(val))
 };
