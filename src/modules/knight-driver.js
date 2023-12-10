@@ -10,7 +10,9 @@ export default function knightTest(x, y, maxTime = 8) {
             const randomNum = Array.from({length: 2}, ()=> Math.floor(Math.random() * 8));
             const randomNum2 = Array.from({length: 2}, ()=> Math.floor(Math.random() * 8));
     
-            console.log(KnightMoves(randomNum, randomNum2));
+            const knightsTravail = KnightMoves(randomNum, randomNum2)
+
+            console.log(knightsTravail);
     
             counter += 1;
         }
