@@ -50,5 +50,5 @@ export default function KnightMoves(startPos, endPos) {
         moveIndex = knightsPath[moveIndex[0]][moveIndex[1]];
     };
 
-    reversePrint(pathway)
+    return reversePrint(pathway)
 };
